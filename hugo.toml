@@ -1,8 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'congo'
-
-[module]
-  [[module.imports]]
-    path = "github.com/jpanther/congo/v2"
+baseURL = "https://example.org/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "My New Hugo Site"
+theme = "congo"

@@ -1,0 +1,6 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "My New Hugo Site"
