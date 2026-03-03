@@ -1,0 +1,4 @@
+# Minimal homepage config to use the profile layout.
+[homepage]
+  layout = "profile"
+  showRecent = false

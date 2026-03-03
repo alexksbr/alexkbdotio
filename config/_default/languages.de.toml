@@ -3,4 +3,8 @@ languageName = "Deutsch"
 languageDirection = "ltr"
 weight = 2
 
-title = "My New Hugo Site"
+title = "Alex Kaserbacher"
+
+[params]
+  [params.author]
+    image = "img/author.jpg"
