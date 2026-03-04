@@ -1,0 +1,53 @@
+.home-card-grid {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+article > section.prose.w-full.max-w-none {
+  max-width: none;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .home-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.home-card {
+  border: 1px solid rgb(var(--color-neutral-300) / 1);
+  border-radius: 0.75rem;
+  background: rgb(var(--color-neutral-100) / 1);
+  padding: 1rem;
+}
+
+.home-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.home-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgb(var(--color-neutral-700) / 1);
+}
+
+html.dark .home-card {
+  border-color: rgb(var(--color-neutral-700) / 1);
+  background: rgb(var(--color-neutral-800) / 0.6);
+}
+
+html.dark .home-card p {
+  color: rgb(var(--color-neutral-300) / 1);
+}
+
+@media (min-width: 1024px) {
+  body.max-w-7xl {
+    max-width: 84rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+}
