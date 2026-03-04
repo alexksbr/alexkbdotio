@@ -2,3 +2,7 @@
 [homepage]
   layout = "profile"
   showRecent = false
+
+[article]
+  showAuthor = false
+  showPagination = false
