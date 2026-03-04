@@ -90,6 +90,30 @@ html.dark .article-card p {
   color: rgb(var(--color-neutral-300) / 1);
 }
 
+@media (min-width: 640px) {
+  header nav ul li:has(a[href^="mailto:"]),
+  header nav ul li:has(a[href*="linkedin.com/in/alexksbr"]) {
+    margin-inline-end: 0.85rem !important;
+  }
+
+  header nav ul li:has(a[href*="linkedin.com/in/alexksbr"]) {
+    margin-inline-end: 0.125rem !important;
+  }
+
+  header nav ul li a[href^="mailto:"] {
+    position: relative;
+    padding-inline-start: 0.95rem;
+  }
+
+  header nav ul li a[href^="mailto:"]::before {
+    content: "|";
+    position: absolute;
+    inset-inline-start: 0;
+    color: rgb(var(--color-neutral-500) / 1);
+    font-weight: 500;
+  }
+}
+
 @media (min-width: 1024px) {
   article > header.max-w-prose,
   article > footer.max-w-prose,

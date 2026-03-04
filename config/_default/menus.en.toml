@@ -1,4 +1,27 @@
 [[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 5
+
+[[main]]
   name = "Essays"
   pageRef = "blog"
   weight = 10
+
+[[main]]
+  name = "Email"
+  url = "mailto:ak@embarc.de"
+  weight = 90
+  [main.params]
+    icon = "email"
+    showName = false
+
+[[main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/alexksbr/"
+  weight = 100
+  [main.params]
+    icon = "linkedin"
+    showName = false
+    target = "_blank"
+    rel = "noopener noreferrer"
