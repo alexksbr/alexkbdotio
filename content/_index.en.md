@@ -31,7 +31,25 @@ Most software systems are not built to change. That's a design problem, and it's
 I'm a software architect, iSAQB-accredited trainer, and author. I consult on distributed and agentic systems, deliver advanced architecture training, and speak at conferences on the topics I care most about: adaptive systems, AI, and the decisions that make software survive change.
 
 ## Writing & Thinking
-TODO top/recent 2-3 articles
+Here are three featured essays:
+
+<div class="article-card-grid">
+  <div class="article-card">
+    <h3>Assessing Component Autonomy</h3>
+    <p>A practical checklist for evaluating and improving autonomy across architecture dimensions.</p>
+    <a class="article-link" href="/blog/assessing-component-autonomy-strengthen-your-softwares-adaptability/">Read article</a>
+  </div>
+  <div class="article-card">
+    <h3>Build Adaptable and Resilient Software</h3>
+    <p>How to design components that remain evolvable and reliable as systems and teams grow.</p>
+    <a class="article-link" href="/blog/build-adaptable-and-resilient-software/">Read article</a>
+  </div>
+  <div class="article-card">
+    <h3>Event-Driven Communication</h3>
+    <p>Why asynchronous communication reduces coordination overhead and strengthens team independence.</p>
+    <a class="article-link" href="/blog/event-driven-communication-and-its-effects-on-team-independence/">Read article</a>
+  </div>
+</div>
 
 ## My Newsletter
 If this thinking resonates, follow along. I write about software architecture, stress-testing, and the hard decisions behind building systems that last. Get new essays in your inbox:
