@@ -90,6 +90,37 @@ html.dark .article-card p {
   color: rgb(var(--color-neutral-300) / 1);
 }
 
+/* Make primary navy more visible across the site */
+h1, h2, h3 {
+  color: rgba(var(--color-primary-700), 1);
+}
+
+.prose {
+  --tw-prose-headings: rgba(var(--color-primary-700), 1);
+
+}
+
+header nav a {
+  color: rgba(var(--color-primary-700), 1);
+}
+
+.home-card h3,
+.article-card h3 {
+  color: rgba(var(--color-primary-700), 1);
+}
+
+.home-card {
+  border-color: rgba(var(--color-primary-200), 1);
+}
+
+.article-card {
+  border-color: rgba(var(--color-primary-200), 1);
+}
+
+.article-link {
+  color: rgba(var(--color-primary-600), 1);
+}
+
 @media (min-width: 640px) {
   header nav ul li:has(a[href^="mailto:"]),
   header nav ul li:has(a[href*="linkedin.com/in/alexksbr"]) {

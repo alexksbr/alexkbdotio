@@ -1,3 +1,7 @@
+colorScheme = "alexkb"
+defaultAppearance = "light"
+showAppearanceSwitcher = false
+
 # Minimal homepage config to use the profile layout.
 [homepage]
   layout = "profile"
