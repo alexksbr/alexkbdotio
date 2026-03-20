@@ -37,20 +37,20 @@
     <h2>{{ $heading }}</h2>
 
     {{- range $termine }}
-      <article class="my-6 rounded-lg border border-neutral-300 dark:border-neutral-700">
-        <h3 class="m-0 rounded-t-lg bg-neutral-900 px-4 py-2 text-base font-semibold text-white">
+      <article class="training-card">
+        <h3 class="training-card-header">
           {{ partial "zeitraum.html" (dict "von" .termin_datum_start "bis" .termin_datum_ende) }}
         </h3>
-        <div class="border-t border-neutral-300 p-4 dark:border-neutral-700">
-          <h4 class="m-0 text-xl font-semibold">
+        <div class="training-card-body">
+          <h4 class="text-xl font-semibold">
             iSAQB CSPA-{{ upper (substr .seminar_level 0 1) }}{{ if ne .seminar_level "foundation" }} {{ upper .seminar_kuerzel }}{{ end }}
           </h4>
-          <p class="mb-0 mt-2">
+          <p>
             {{ .ort }}, {{ .termin_dauer_tage }} {{ i18n "seminar_dauer_tage" }}, {{ .termin_sprache }}{{ if .termin_garantie }} - {{ i18n "seminar_termingarantie" }}{{ end }}{{ if .termin_ausgebucht }} - <strong>{{ i18n "seminar_ausgebucht" }}</strong>{{ end }}<br>
             {{ .seminar_name }}
           </p>
-          <a class="mt-2 inline-block font-semibold" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-            {{ i18n "seminar_mehr_infos" }}{{ if not .termin_ausgebucht }} {{ i18n "seminar_und_buchung" }}{{ end }} ->
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+            {{ i18n "seminar_mehr_infos" }}{{ if not .termin_ausgebucht }} {{ i18n "seminar_und_buchung" }}{{ end }} &rarr;
           </a>
         </div>
       </article>
