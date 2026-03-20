@@ -1,4 +1,6 @@
 colorScheme = "alexkb"
+
+[header]
 defaultAppearance = "light"
 showAppearanceSwitcher = false
 

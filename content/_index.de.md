@@ -31,7 +31,7 @@ Die meisten Softwaresysteme sind nicht für Wandel gebaut. Das ist ein Designpro
 Ich arbeite als Softwarearchitekt, iSAQB-akkreditierter Trainer und Autor. Meine Schwerpunkte: Beratung zu verteilten und agentischen Systemen, fortgeschrittene Trainings zu Softwarearchitektur und Konferenzvorträge zu adaptiven Systemen, AI und den Entscheidungen hinter langlebiger Software.
 
 ## Schreiben & Denken
-Hier sind drei ausgewaehlte Essays:
+Hier sind drei ausgewählte Essays:
 
 <div class="article-card-grid">
   <div class="article-card">

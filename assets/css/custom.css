@@ -108,7 +108,8 @@ h1, h2, h3 {
 
 }
 
-header nav a {
+header nav a,
+header nav button {
   color: rgba(var(--color-primary-700), 1);
 }
 
