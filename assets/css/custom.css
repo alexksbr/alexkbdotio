@@ -17,9 +17,16 @@ article > section.prose.w-full.max-w-none {
 
 .home-card {
   border: 1px solid rgb(var(--color-neutral-300) / 1);
-  border-radius: 0.75rem;
+  border-top: 4px solid rgba(var(--color-primary-700), 1);
+  border-radius: 0 0 0.75rem 0.75rem;
   background: rgb(var(--color-neutral-100) / 1);
   padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(var(--color-neutral-400), 0.3);
 }
 
 .home-card h3 {
