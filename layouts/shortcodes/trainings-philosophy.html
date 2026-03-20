@@ -1,0 +1,12 @@
+{{- with .Page.Params.ueber_traings -}}
+  {{- if or .heading .text -}}
+    <section class="mb-8">
+      {{- with .heading -}}
+        <h2>{{ . }}</h2>
+      {{- end -}}
+      {{- with .text -}}
+        <p>{{ . }}</p>
+      {{- end -}}
+    </section>
+  {{- end -}}
+{{- end -}}

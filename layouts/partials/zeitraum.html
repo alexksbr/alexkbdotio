@@ -1,0 +1,21 @@
+{{- $fromRaw := .von -}}
+{{- $toRaw := .bis -}}
+{{- $from := cond $fromRaw (time $fromRaw) nil -}}
+{{- $to := cond $toRaw (time $toRaw) nil -}}
+{{- $isDE := eq site.Language.Lang "de" -}}
+
+{{- if and $from $to -}}
+  {{- if $isDE -}}
+    {{- printf "%s - %s" ($from | time.Format "02.01.2006") ($to | time.Format "02.01.2006") -}}
+  {{- else -}}
+    {{- printf "%s - %s" ($from | time.Format "Jan 2, 2006") ($to | time.Format "Jan 2, 2006") -}}
+  {{- end -}}
+{{- else if $from -}}
+  {{- if $isDE -}}
+    {{- $from | time.Format "02.01.2006" -}}
+  {{- else -}}
+    {{- $from | time.Format "Jan 2, 2006" -}}
+  {{- end -}}
+{{- else -}}
+  {{- "" -}}
+{{- end -}}
