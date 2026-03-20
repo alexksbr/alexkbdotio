@@ -1,3 +1,11 @@
+[[footer]]
+  name = "Imprint"
+  url = "https://www.embarc.de/impressum/"
+  weight = 10
+  [footer.params]
+    target = "_blank"
+    rel = "noopener noreferrer"
+
 [[main]]
   name = "About"
   pageRef = "about"
