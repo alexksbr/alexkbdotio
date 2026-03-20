@@ -56,7 +56,8 @@ article > section.prose.w-full.max-w-none {
 
 .article-card {
   border: 1px solid rgb(var(--color-neutral-300) / 1);
-  border-radius: 0.75rem;
+  border-top: 4px solid rgba(var(--color-secondary-500), 1);
+  border-radius: 0 0 0.75rem 0.75rem;
   background: rgb(var(--color-neutral-100) / 1);
   padding: 1rem;
 }
@@ -121,7 +122,9 @@ header nav a {
 }
 
 .article-card {
-  border-color: rgba(var(--color-primary-200), 1);
+  border-right-color: rgba(var(--color-primary-200), 1);
+  border-bottom-color: rgba(var(--color-primary-200), 1);
+  border-left-color: rgba(var(--color-primary-200), 1);
 }
 
 .article-link {
